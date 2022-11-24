@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment02</title>
+    <style>
+        *{
+          background-color: rgb(152, 217, 241);
+          color: rgb(1, 1, 68);
+        }
+        .sec1{
+            margin: 0;
+            padding: 0;
+            border: 5px solid white;
+        }
+        .box{
+            text-align: center;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(1, 1, 68);
+        }
+        .sec2{
+            border: 2px solid white;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .wrapper1{
+                    width: 70%;
+                    grid-gap: 10px;
+                    background-color: #fff;
+                    color: #444;
+                }
+                .box1{
+                        background-color: #444;
+                        color: #fff;
+                        padding: 20px;
+                        font-size: 50px;
+                     }
+                     .wrapper1 blockquote{
+                        background-color: #fff ;
+                        color: #444;
+                     }
+                     .wrapper1 button{
+                        background-color: #fff ;
+                        color: #444;
+                        margin: 5px;
+                        margin-left: 15px;
+                        padding: 10px;
+                     }
+        
+    </style>
+</head>
+<body>
+    <section class="sec1">
+        <header class="heading">
+            <div class="container1">
+            <h1 class="box">ASSIGNMENT-2</h1>
+            <h2 class="box">CSS</h2>
+        </div>
+        </header>
+    </section>
+    <section class="sec2">
+        <div class="container2">
+         <ol start="1">
+            <li class="que">What are the benefits of using CSS?</li> 
+            <ul class="ans">
+                <li>It is easy to maintain and update it also enable us to us less code so the website downloads the items and  works faster there are more formating options in css it also provides us search engine optmization benefits.   </li>
+                <img src="./images/css pros.png" alt="">
+            </ul> <br>
+            <li class="que">What are the disadvantages of CSS?</li> 
+            <ul class="ans">
+                <li>It gives us limited security,extar work for developers,confusion due to many versions of css.</li>
+                <img src="./images/css cons.png" alt="">
+            </ul> <br>
+            <li class="que">What is the difference between CSS2 and CSS3?</li> 
+            <ul class="ans">
+                <li>
+                    <table border="5">
+                        <tr style="text-align: center;">
+                            <th>CSS2</th>
+                            <th>CSS3</th>
+                        </tr>
+                        <tr>
+                            <td>It has normal styling</td>
+                            <td>It has better styling</td>
+                        </tr>
+                        <tr>
+                            <td>It has no transitions and animations</td>
+                            <td>It has new transitions and animations</td>
+                        </tr>
+                        <tr>
+                            <td>It has no shadows</td>
+                            <td> It has shadows</td>
+                        </tr>
+                        <tr>
+                            <td>It has no embedded fonts</td>
+                            <td>It has embedded fonts and responsive layouts</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul> <br>
+            <li class="que">Name a few CSS style components</li> 
+            <ul class="ans">
+                <li>
+                    The components of css style are: <br>
+                    1)Selecter:HTML element name, id name, class name. <br>
+                    2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.<br>
+                    3)Values:which defines property or values allocate for properties.<br>
+                </li>
+            </ul> <br>
+            <li class="que">What do you understand by CSS opacity?</li> 
+            <ul class="ans">
+                <li>It specifies the opacity/transparency of an element.It is mostly used with the :hover selector to change the opacity on mouse-over.</li>
+            </ul> <br>
+            <li class="que">How can the background color of an element be changed?</li> 
+            <ul class="ans">
+                <li>In css to change the background color of the element we can use property of "background-color:;" <br>e.g-(background-color: whitesmoke;)</li>
+            </ul> <br>
+            <li class="que">How can image repetition of the backup be controlled? </li> 
+            <ul class="ans">
+                <li>In css we can control the image repetition of the backup with thw help of "background-repeat", if we don't want the image to repeat then we can use "no-repeat" value.</li>
+            </ul> <br>
+            <li class="que">What is the use of the background-position property? </li> 
+            <ul class="ans">
+                <li>Background-position is mostly used to set the position of our images.</li>
+            </ul> <br>
+            <li class="que">Which property controls the image scroll in the background? </li> 
+            <ul class="ans">
+                <li>The property of background-attachment is used to controls the image scroll in the background.</li>
+            </ul> <br>
+            <li class="que">Why should background and color be used as separate properties? </li> 
+            <ul class="ans">
+                <li>The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.</li>
+            </ul> <br>
+            <li class="que">How to center block elements using CSS1?</li> 
+            <ul class="ans">
+                <li>To center the block elements “margin-left” and “margin-right” property and give value “auto” to both,we can use width property and give value as per required.</li>
+            </ul> <br>
+            <li class="que">How to maintain the CSS specifications? </li> 
+            <ul class="ans">
+                <li>The CSS specifications are maintained by the World Wide Web Consortium (W3C).</li>
+            </ul> <br>
+            <li class="que">What are the ways to integrate CSS as a web page? What is embedded style sheets? </li> 
+            <ul class="ans">
+                <li>
+                    There are 3 ways to integrate CSS as a web page :- <br>
+                    (1)Inline - using style attribute inside element <br>
+                    (2)Internal - using style element in head section <br>
+                    (3)External - using link to use an external css
+                </li>
+                <img src="./images/CSSStyles_StyleApply.png" alt="" width="500px">
+            </ul> <br>
+            <li class="que">What is embedded style sheets? </li> 
+            <ul class="ans">
+                <li>Embedded style sheets allow you to define styles for the whole HTML document in one place. Embedded style sheets refer to when you embed style sheet information into an HTML document using the < style > element.</li>
+            </ul> <br>
+            <li class="que">What are the external style sheets? </li> 
+            <ul class="ans">
+                <li>External style sheets are used to separate CSS file which can be accessed by using link element in head section.</li>
+            </ul> <br>
+            <li class="que">What are the advantages and disadvantages of using external style sheets? </li> 
+            <ul class="ans">
+                <li>
+                    <table border="5">
+                        <tr style="text-align: center;">
+                            <th>Advantages</th>
+                            <th>Disadvantages</th>
+                        </tr>
+                         <tr>
+                            <td>Using them, the styles of multiple documents can be controlled from one file.</td>
+                            <td>In order to import style information for each document, an extra download is needed.</td>
+
+                            
+                         </tr>
+                         <tr>
+                            <td>Classes can be created for use on multiple HTML element types in many documents.</td>
+                            <td>Until the external style sheet is loaded, it may not be possible to render the document.</td>
+                         </tr>
+                         <tr>
+                            <td>In complex situations, selector and grouping methods can be used to apply styles.</td>
+                            <td> For small number of style definitions, it is not viable.</td> 
+                        </tr>
+
+                    </table>
+                </li>
+            </ul> <br>
+            <li class="que">What is the meaning of the CSS selector? </li> 
+            <ul class="ans">
+                <li>
+                    It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. <br>
+                    There are 9 types of selectors in CSS:- <br>
+                    (1)Universal selector 
+                    (2)element selector
+                    (3)id selector <br>
+                    (4)class selector 
+                    (5) grouping selector 
+                    (6)descendent selector <br>
+                    (7)child selector 
+                    (8)general sibling selector
+                    (9)adjacent sibling selector <br>
+                </li>
+                <img src="./images/CSS-Selectors.webp" alt="" width="500px">
+            </ul> <br>
+            <li class="que">What are the media types allowed by CSS?</li> 
+            <ul class="ans">
+                <li>
+                    (1)all:- Suitable for all devices. <br>
+                    (2)braille:- Intended for braille tactile feedback devices. <br>
+                    (3)embossed:- Intended for paged braille printers. <br>
+                    (4)handheld:- Intended for handheld devices (typically small screen, limited bandwidth). <br>
+                    (5)print:- Intended for paged material and for documents viewed on screen in print preview mode.<br>
+                    (6)projection:- Intended for projected presentations, for example projectors.<br>
+                    (7)screen:- Intended primarily for color computer screens. <br>
+                    (8)speech:- Intended for speech synthesizers. Note: CSS2 had a similar media type called 'aural' for this purpose.<br>
+                    (9)tty:- Intended for media using a fixed-pitch character grid (such as teletypes, terminals, or portable devices with limited display capabilities).<br>
+                    (10)tv:- Intended for television-type devices (low resolution, color, limited-scrollability screens, sound available). <br>
+                </li>
+            </ul> <br>
+            <li class="que">What is the rule set?</li> 
+            <ul class="ans">
+                <li> A selector group and an associated declarations block, together, are called a ruleset, or often a rule.</li>
+            </ul> <br>
+            <li class="que">Create Layouts </li> 
+            <ul class="ans">
+                <li></li>
+            </ul> <br>
+         </ol>
+        </div>
+        <br><br><br>
+        <section class="sec3">
+            <div class="grid-container">
+                <div class="wrapper1">
+                    <div class="box1">Thumbnail</div>
+                    <blockquote>This is a wider card with supporting text below as a natural lead in to additional content.The content is little bit longer.</blockquote>
+                    <button>view</button>
+                    <button>edit</button>
+                </div>
+                <div class="wrapper1">
+                    <div class="box1">Thumbnail</div>
+                    <blockquote>This is a wider card with supporting text below as a natural lead in to additional content.The content is little bit longer.</blockquote>
+                    <button>view</button>
+                    <button>edit</button>
+                </div>
+                <div class="wrapper1">
+                    <div class="box1">Thumbnail</div>
+                    <blockquote>This is a wider card with supporting text below as a natural lead in to additional content.The content is little bit longer.</blockquote>
+                    <button>view</button>
+                    <button>edit</button>
+                </div>
+                <div class="wrapper1">
+                    <div class="box1">Thumbnail</div>
+                    <blockquote>This is a wider card with supporting text below as a natural lead in to additional content.The content is little bit longer.</blockquote>
+                    <button>view</button>
+                    <button>edit</button>
+                </div>
+                <div class="wrapper1">
+                    <div class="box1">Thumbnail</div>
+                    <blockquote>This is a wider card with supporting text below as a natural lead in to additional content.The content is little bit longer.</blockquote>
+                    <button>view</button>
+                    <button>edit</button>
+                </div>
+                <div class="wrapper1">
+                    <div class="box1">Thumbnail</div>
+                    <blockquote>This is a wider card with supporting text below as a natural lead in to additional content.The content is little bit longer.</blockquote>
+                    <button>view</button>
+                    <button>edit</button>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
