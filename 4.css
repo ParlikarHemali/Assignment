@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif        ;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    color: rgb(37, 22, 3);
+}
