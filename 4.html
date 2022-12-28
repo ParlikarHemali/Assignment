@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./4.css">
+    <title>Assignment-4</title>
+    <script>
+        var d = new Date();
+	
+    switch(d.getDay()) {
+        case 0:
+            alert("Today is Sunday.");
+            break;
+        case 1:
+            alert("Today is Monday.");
+            break;
+        case 2:
+            alert("Today is Tuesday.");
+            break;
+        case 3:
+            alert("Today is Wednesday.");
+            break;
+        case 4:
+            alert("Today is Thursday.");
+            break;
+        case 5:
+            alert("Today is Friday.");
+            break;
+        case 6:
+            alert("Today is Saturday.");
+            break;   
+        default:
+            alert("No information available for that day.");
+            break;
+    }
+        confirm("Do you want to see the answers?");
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Module (JAVASCRIPT BASIC & DOM) – 4</h1>
+    </div>
+    <div>
+        <ol>
+            <li>What is JavaScript? </li>
+            <ul>
+                <li>
+                    Ans:-JavaScript is a scripting or programming language that allows us to implement complex features on web pages like it creates dynamically updating content, control multimedia, animate images, and pretty much everything else.
+                </li>
+            </ul>
+            <li>What is the use of isNaN function? </li>
+            <ul>
+                <li>
+                    Ans:-The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not. It returns true if the value is a NaN else returns false. It is different from the Number.isNaN() Method.
+
+                    <br>Syntax:
+                    
+                    isNaN( value )
+                </li>
+            </ul>
+            <li>What is negative Infinity? </li>
+            <ul>
+                <li>
+                    Ans:- The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation.JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+                </li>
+            </ul>
+            <li>Which company developed JavaScript? </li>
+            <ul>
+                <li>
+                    Ans:- Brendan Eich, a Netscape Communications Corporation programmer, created JavaScript in September 1995. 
+                </li>
+            </ul>
+            <li>What are undeclared and undefined variables?</li>
+            <ul>
+                <li>
+                    Ans:- Undeclared − It occurs when a variable which hasn’t been declared using var, let or const is being tried to access. <br>
+
+                      Undefined − It occurs when a variable has been declared using var, let or const but isn’t given a value.
+                </li>
+            </ul>
+            <li>Write the code for adding new elements dynamically?</li>
+            <ul>
+                <li>
+                        Ans:- document.createElement("<tagName>"); <br> 
+                              // Where <tagName> can be any HTML <br>
+                              // tagName like div, ul, button, etc. <br>
+                            
+                              // newDiv element has been created <br>
+                              For Eg: let newDiv = document.createElement("div");<br>
+                </li>
+            </ul>
+            <li>What is the difference between ViewState and SessionState? </li>
+            <ul>
+                <li>
+                    <table border="1px solid">
+                        <tr>
+                            <th>View State</th>
+                            <th>session State</th>
+                        </tr>
+                        <tr>
+                            <td>Maintained at page level only.</td>
+                            <td>Maintained at session level.</td>
+                        </tr>
+                        <tr>
+                            <td>View state can only be visible from a single page and not multiple pages.</td>	
+                            <td>Session state value availability is across all pages available in a user session.</td>
+                        </tr>
+                        <tr>
+                            <td>It will retain values in the event of a postback operation occurring.</td>
+                            <td>In session state, user data remains in the server. Data is available to user until the browser is closed or there is session expiration.</td>
+                        </tr>
+                        <tr>
+                            <td>Information is stored on the client’s end only.</td>
+                            <td>Information is stored on the server.</td>
+                        </tr>
+                        <tr>
+                            <td>used to allow the persistence of page-instance-specific data.</td>
+                            <td>used for the persistence of user-specific data on the server’s end.</td>
+                        </tr>
+                        <tr>
+                            <td>ViewState values are lost/cleared when new page is loaded.</td>
+                            <td>SessionState can be cleared by programmer or user or in case of timeouts.</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+            <li>What is === operator?</li>
+            <ul>
+                <li>
+                    Ans:-The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different. <br>
+                    Syntax: <br>
+                    x === y
+                </li>
+            </ul>
+            <li>How can the style/class of an element be changed?</li>
+            <ul>
+                <li>
+                    Ans:-The document.getElementById() method is used to return the element in the document with the “id” attribute and the “className” attribute can be used to change/append the class of the element. <br>
+                    Syntax:<br>
+                    document.getElementById('myElement').className = "myclass";
+                </li>
+            </ul>
+            <li>How to read and write a file using JavaScript?</li>
+            <ul>
+                <li>
+                    Ans:-The fs.readFile() and rs.writeFile() methods are used to read and write of a file using javascript. The file is read using the fs.readFile() function, which is an inbuilt method. This technique reads the full file into memory and stores it in a buffer. <br>
+                    Syntax: <br>
+                    fs.readFile( file_name, encoding, callback_function )
+                </li>
+            </ul>
+            <li>What are all the looping structures in JavaScript? </li>
+            <ul>
+                <li>
+                    Ans:-JavaScript supports different kinds of loops:<br>
+                    <ol>
+                    <li>for - loops through a block of code a number of times.</li>
+                    <li>for/in - loops through the properties of an object.</li>
+                    <li>for/of - loops through the values of an iterable object.</li>
+                    <li>while - loops through a block of code while a specified condition is true.</li>
+                    <li>do/while - also loops through a block of code while a specified condition is true.</li>
+                    </ol>                
+                </li>
+            </ul>
+            <li>How can you convert the string of any base to an integer in JavaScript?</li>
+            <ul>
+                <li>
+                    Ans:-parseInt() is a function that converts the string input into an integer value. After users run their code, the parseInt() function returns an integer of a base which the second parameter specifies in the parseInt() function.
+                </li>
+            </ul>
+            <li>What is the function of the delete operator? </li>
+            <ul>
+                <li>
+                    Ans:-The delete operator deletes an object, an object's property, or an element from an array. The operator can also delete variables which are not declared with the var statement.
+                </li>
+            </ul>
+            <li>What are all the types of Pop up boxes available in JavaScript? </li>
+            <ul>
+                <li>
+                    Ans:-There are three types of pop up boxes :<br>
+                    <ol type="i">
+                        <li>Alert box</li>
+                        <li>Confirm box</li>
+                        <li>Prompt box</li>
+                    </ol> 
+                </li>
+            </ul>
+            <li>What is the use of Void (0)?</li>
+            <ul>
+                <li>
+                    Ans:-It means return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we insert some expression.
+                </li>
+            </ul>
+            <li>How can a page be forced to load another page in JavaScript?</li>
+            <ul>
+                <li>
+                    Ans:-We can use window.location object to load another page in JavaScript. eg: window.location = “Path / URL”
+                </li>
+            </ul>
+            <li>What are the disadvantages of using innerHTML in JavaScript?</li>
+            <ul>
+                <li>
+                    Ans:- <ol type="i">
+                               <li>inner HTML is slow</li>
+                               <li>Event handlers attached to any DOM element are preserved</li>
+                               <li>It is not possible to append innerHTML</li>
+                               <li>Replacement is done everywhere</li>
+                               <li>Used for Cross-site Scripting</li>
+                               <li>Breaks the document</li>
+                          </ol>
+                </li>
+            </ul>
+        </ol>
+    </div>
+</body>
+</html>
