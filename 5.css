@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    /* background-color: blueviolet; */
+}
+h1{
+    background-color: blueviolet;
+    padding: 50px;
+    color: aliceblue;
+}
+.container1{
+    background-color: blueviolet;
+}

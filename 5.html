@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./5.css">
+    <title>Assignment-5</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('h1').mouseenter(function(){
+                $('h1').css({"color": "black", "background-color":"crimson" });
+            });
+    
+            $('h1').mouseleave(function(){
+                $('h1').css({"color": "", "background-color":"" });
+            });
+        });
+        $(document).ready(function(){
+            $('.wrapper1').mouseenter(function(){
+                $('.wrapper1').css({"color": "aliceblue", "background-color":"blue" ,"border":"1px solid white" });
+            });
+    
+            $('.wrapper1').mouseleave(function(){
+                $('.wrapper1').css({"color": "", "background-color":"" ,"border":"" });
+            });
+        });
+        $(document).ready(function(){
+            $('.wrapper2').mouseenter(function(){
+                $('.wrapper2').css({"color": "aliceblue", "background-color":"green" ,"border":"1px solid white" });
+            });
+    
+            $('.wrapper2').mouseleave(function(){
+                $('.wrapper2').css({"color": "", "background-color":"" ,"border":"" });
+            });
+        });
+        $(document).ready(function(){
+            $('.wrapper3').mouseenter(function(){
+                $('.wrapper3').css({"color": "aliceblue", "background-color":"red" ,"border":"1px solid white" });
+            });
+    
+            $('.wrapper3').mouseleave(function(){
+                $('.wrapper3').css({"color": "", "background-color":"" ,"border":"" });
+            });
+        });
+        </script>
+</head>
+<body>
+    <div>
+        <h1>Module (JQuery Basic, Effects & Advanced) – 5</h1>
+    </div>
+    <div class="container1">
+        <ol>
+        <div class="wrapper1">
+            <li>What is jQuery?</li>
+            <div>
+               Ans:-<br> 
+               It is a small, fast and lightweight JavaScript library.It is also platform-independent.It means "write less do more".It also simplifies AJAX call and DOM manipulation.
+            </div>
+        </div>
+        <div class="wrapper2">
+            <li>How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+                JQuery Animation?</li>
+                <div>
+                    Ans:-<br> 
+                    For applying css using jQuery<br>
+                    Syntax:<br>
+                    $(selector).css(property)<br>
+                          For Adding a class<br>
+                          Syntax:<br>
+                            $('selector').addClass(class_name);<br>
+                           For Removing a class<br>
+                            Syntax:<br>
+                            $('selector').removeClass(class_name);<br>
+                            For jQuery animation <br>
+                            Syntax:<br>
+                            $(selector).animate({params}, speed, callback);  
+                </div>
+            </div>
+            <div class="wrapper3">
+            <li>How to create slider with animation?</li>
+            <div>
+                Ans:-<br>
+                We can create slider with animation using this syntax:<br>
+                $("selector").animate({params}, speed, callback);
+            </div>
+        </div>
+        </ol>
+    </div>
+</body>
+</html>
