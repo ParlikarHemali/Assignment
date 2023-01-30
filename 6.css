@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(3, 69, 70);
+    color: white
+}
+h1{
+    text-shadow:;
+    text-align: center;
+}
+.question{
+    margin: 30px;
+}
+h3{
+    font-size: 20px;
+}

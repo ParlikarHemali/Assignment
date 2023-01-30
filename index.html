@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <style>
+        *{
+          background-color: bisque;
+        }
+        .asig{
+            text-shadow: 0px 5px 7px saddlebrown;
+            color: rgb(119, 71, 71);
+            text-align: center;
+            font-size: 50px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            animation-name: colour;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes colour{
+            0%{background-color: rgb(78, 44, 44);}
+            10%{background-color:rgba(120, 84, 84, 0.762);}
+            20%{background-color: rgb(81, 63, 63);}
+            40%{background-color :rgb(67, 57, 57);}
+            60%{background-color: rgb(68, 59, 59);}
+            80%{background-color:rgb(49, 1, 1);}
+            100%{background-color:rgb(76, 30, 30);}
+        }
+        .animate{
+            animation-name: button_;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-timing-function: ease-out;
+        }
+        @keyframes button_{
+            from{
+                margin-left: 80%;
+                width: 200%;
+            }
+            to{
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+        .sec2{
+            padding-left: 90px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <h1 class="asig">ASSIGNMENTS</h1>
+        </header>
+    </section>
+    <section class="sec2">
+        <div>
+            <button class="box">MODULE 1</button>
+        </div>
+        <div>
+            <button class="box">MODULE 2</button>
+        </div>
+        <div>
+            <button class="box">MODULE 3</button>
+        </div>
+        <div>
+            <button class="box">MODULE 4</button>
+        </div>
+        <div>
+            <button class="box">MODULE 5</button>
+        </div>
+        <div>
+            <button class="box">MODULE 6</button>
+        </div>
+    </section>
+    
+   
+
+</body>
+</html>
